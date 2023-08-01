@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="everylist"
+            type="com.swu.coswumetic.EverythingActivity.EveryList" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:layout_margin="20dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/recycler_expDate"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/text2"
+            android:gravity="center"
+            android:text="YYYY-MM-DD" />
+
+
+        <TextView
+            android:id="@+id/recycler_cosName"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/text"
+            android:gravity="center"
+            android:text="화장품 이름" />
+
+
+    </LinearLayout>
+</layout>
